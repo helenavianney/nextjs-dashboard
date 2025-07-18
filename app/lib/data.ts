@@ -1,5 +1,6 @@
 import postgres from 'postgres';
-import { sql } from '@vercel/postgres'
+import { sql as pgSql } from '@vercel/postgres';
+
 import {
   CustomerField,
   CustomersTableType,
